@@ -894,7 +894,7 @@ svg {
 }
 
 .checkbox:checked + .check {
-	background-image: url(/images/check.svg);
+	background-image: url(./images/check.svg);
 	background-size: contain;
 	background-origin: border-box;
 	background-color: var(--hover-color);
