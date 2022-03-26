@@ -568,7 +568,7 @@ svg {
 } */
 
 .subscribe-form {
-	margin-left: 93px;
+	margin-left: auto;
 }
 
 .subscribe-form p {
@@ -791,7 +791,7 @@ svg {
 	min-width: 528px;
 	min-height: 581px;
 	border-radius: 4px;
-	padding-top: 40px;
+	padding: 40px;
 
 	background-color: var(--main-background-color);
 }
@@ -868,6 +868,7 @@ svg {
 .modal .field {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .checkbox {
@@ -894,7 +895,7 @@ svg {
 }
 
 .checkbox:checked + .check {
-	background-image: url(../images/check.svg);
+	background-image: url(/images/check.svg);
 	background-size: contain;
 	background-origin: border-box;
 	background-color: var(--hover-color);
@@ -902,6 +903,8 @@ svg {
 }
 
 .modal-check .text {
+	font-size: 14px;
+	font-weight: 400;
 	line-height: 1.7;
 	letter-spacing: 0.03em;
 }
